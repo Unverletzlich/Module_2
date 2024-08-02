@@ -1,6 +1,6 @@
-first = int(input('Enter the first namber: '))
-second = int(input('Enter the second namber: '))
-third = int(input('Enter the third namber: '))
+first = int(input('Enter the first number: '))
+second = int(input('Enter the second number: '))
+third = int(input('Enter the third number: '))
 if first == second and third == first and second == third:
     print('3')
 elif first != second and first != third and second != third:
