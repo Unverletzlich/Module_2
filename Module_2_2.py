@@ -5,6 +5,6 @@ if first == second and third == first and second == third:
     print('3')
 elif first != second and first != third and second != third:
     print('0')
-elif first == second or first == third or second == third:
+elif first == second and first != third or first == third and first !=second or second == third and second!=first:
     print('2')
 
